@@ -1,5 +1,5 @@
-bastelnachmittag-scala-play-lift
-================================
+Bastelnachmittag mit Scala, Play, Lift
+======================================
 
 Dieser Bastelnachmittag steht im Zeichen zweier Web Frameworks, die auf der Programmiersprache Scala basieren. Vorkenntnisse sind keine besonderen nötig, als Absolvent eines Informatikstudiengangs sollte jeder Teilnehmer ausreichendes Vorwissen haben.
 Also IDE schlage ich IntelliJ vor. Wer es aber mit Eclipse versuchen will sollte auch glücklich werden.
