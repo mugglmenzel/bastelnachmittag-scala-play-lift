@@ -6,13 +6,13 @@ Also IDE schlage ich IntelliJ vor. Wer es aber mit Eclipse versuchen will sollte
 
 Allerdings gibt es einige Vorbereitungen zu treffen, die unnötige Aufgaben aus dem Bastelnachmittag fern halten. 
 
-* Java JDK+JRE installiert haben (java.com)
+[X] Java JDK+JRE installiert haben (java.com)
 
 1. Scala Compiler + Libraries herunterladen (scala-lang.org)
 
 2. Play Framework Console herunterladen und installieren (playframework.com)
 
-3. 5. Maven herunterladen und installieren (maven.apache.org)
+3. Maven herunterladen und installieren (maven.apache.org)
 
 4. Play Musterprojekt herunterladen (in diesem Repo)
 
