@@ -4,6 +4,7 @@ bastelnachmittag-scala-play-lift
 Dieser Bastelnachmittag steht im Zeichen zweier Web Frameworks, die auf der Programmiersprache Scala basieren. Vorkenntnisse sind keine besonderen nötig, als Absolvent eines Informatikstudiengangs sollte jeder Teilnehmer ausreichendes Vorwissen haben.
 
 Allerdings gibt es einige Vorbereitungen zu treffen, die unnötige Aufgaben aus dem Bastelnachmittag fern halten. 
+
 1. Scala Compiler + Libraries herunterladen (scala-lang.org)
 2. Play Framework Console herunterladen und installieren (playframework.com)
 3. Play Musterprojekt herunterladen (in diesem Repo)
