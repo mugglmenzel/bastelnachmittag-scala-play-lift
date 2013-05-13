@@ -8,17 +8,17 @@ Allerdings gibt es einige Vorbereitungen zu treffen, die unnötige Aufgaben aus 
 
 0: Java JDK+JRE installiert haben (java.com)
 
-1: Scala Compiler + Libraries herunterladen (scala-lang.org)
+1. Scala Compiler + Libraries herunterladen (scala-lang.org)
 
-2: Play Framework Console herunterladen und installieren (playframework.com)
+2. Play Framework Console herunterladen und installieren (playframework.com)
 
-3: 5. Maven herunterladen und installieren (maven.apache.org)
+3. 5. Maven herunterladen und installieren (maven.apache.org)
 
-4: Play Musterprojekt herunterladen (in diesem Repo)
+4. Play Musterprojekt herunterladen (in diesem Repo)
 
-5: Lift Musterprojekt herunterladen (in diesem Repo)
+5. Lift Musterprojekt herunterladen (in diesem Repo)
 
-6: (Optional) IntelliJ installieren (jetbrains.com/idea)
+6. (Optional) IntelliJ installieren (jetbrains.com/idea)
 
 
 Um die Vorbereitungen zu treffen nun folgend eine Anleitung, die die nötigen Schritte erklärt, um die 5 zuvorgenannten Aufgaben zu erledigen.
