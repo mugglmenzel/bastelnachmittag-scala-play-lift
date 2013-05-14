@@ -50,12 +50,12 @@ Bitte stellt sicher, dass ihr `mvn --version` erfolgreich auf der Konsole ausfü
 
 ### 4. Musterprojekt Play
 
-Im Hauptordner dieses Repos findet ihr ein [Musterprojekt für das Play! Framework](/play-sample-project), dass wir als Grundlage nutzen werden. Dieses werden wir zunächst betrachten und dann einige Neuerungen implementieren.
+Im Hauptordner dieses Repos findet ihr ein [Musterprojekt für das Play! Framework](https://github.com/mugglmenzel/bastelnachmittag-scala-play-lift/tree/master/play-sample-project), dass wir als Grundlage nutzen werden. Dieses werden wir zunächst betrachten und dann einige Neuerungen implementieren.
 
 
 ### 5. Musterprojekt Lift
 
-Im Hauptordner dieses Repos findet ihr ein [Musterprojekt für das Lift Framework](/lift-sample-project), dass wir als Grundlage nutzen werden. Dieses werden wir zunächst betrachten und dann mit der Scala Programmierung in Lift starten.
+Im Hauptordner dieses Repos findet ihr ein [Musterprojekt für das Lift Framework](https://github.com/mugglmenzel/bastelnachmittag-scala-play-lift/tree/master/lift-sample-project), dass wir als Grundlage nutzen werden. Dieses werden wir zunächst betrachten und dann mit der Scala Programmierung in Lift starten.
 
 Weitere Beispielprojekte findet man im Download des [Lift Frameworks][lift-download].
 
