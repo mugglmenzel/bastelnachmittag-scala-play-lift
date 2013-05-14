@@ -50,12 +50,14 @@ Bitte stellt sicher, dass ihr `mvn --version` erfolgreich auf der Konsole ausfü
 
 ### 4. Musterprojekt Play
 
-Im Hauptordner dieses Repos findet ihr ein Musterprojekt für das Play! Framework, dass wir als Grundlage nutzen werden. Dieses werden wir zunächst betrachten und dann einige Neuerungen implementieren.
+Im Hauptordner dieses Repos findet ihr ein [Musterprojekt für das Play! Framework](/play-sample-project), dass wir als Grundlage nutzen werden. Dieses werden wir zunächst betrachten und dann einige Neuerungen implementieren.
 
 
 ### 5. Musterprojekt Lift
 
-Im Hauptordner dieses Repos findet ihr ein Musterprojekt für das Lift Framework, dass wir als Grundlage nutzen werden. Dieses werden wir zunächst betrachten und dann mit der Scala Programmierung in Lift starten.
+Im Hauptordner dieses Repos findet ihr ein [Musterprojekt für das Lift Framework](/lift-sample-project), dass wir als Grundlage nutzen werden. Dieses werden wir zunächst betrachten und dann mit der Scala Programmierung in Lift starten.
+
+Weitere Beispielprojekte findet man im Download des [Lift Frameworks][lift-download].
 
 
 ### 6. IntelliJ IDE
@@ -89,5 +91,6 @@ Wir programmieren eine kleine Todo-Listen-Webanwendung.
 [play-download]: http://www.playframework.com/download "Play! Framework Download"
 [play-install]: http://www.playframework.com/documentation/2.1.1/Installing "Play! Installation Guide"
 [play-docs]: http://www.playframework.com/documentation/2.1.1/Home "Play! Documentation"
+[lift-download]: http://liftweb.net/download "Lift Download"
 [maven-install]: http://maven.apache.org/download.cgi "Maven Download and Installation Guide"
 [idea-download]: http://www.jetbrains.com/idea/download/index.html "IntelliJ IDEA Community Edition Download"
