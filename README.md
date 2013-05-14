@@ -9,12 +9,12 @@ Außerdem gibt es einige Vorbereitungen zu treffen, die unnötige Aufgaben aus d
 Als IDE schlage ich IntelliJ vor. Wer es aber mit Eclipse versuchen will sollte auch glücklich werden. Daher ist der letzte Schritt optional.
 
 
-1. Scala Compiler + Libraries herunterladen (scala-lang.org)
-2. Play Framework Console herunterladen und installieren (playframework.com)
-3. Maven herunterladen und installieren (maven.apache.org)
+1. Scala Compiler + Libraries herunterladen (http://scala-lang.org)
+2. Play Framework Console herunterladen und installieren (http://playframework.com)
+3. Maven herunterladen und installieren (http://maven.apache.org)
 4. Play Musterprojekt herunterladen (in diesem Repo)
 5. Lift Musterprojekt herunterladen (in diesem Repo)
-6. (Optional) IntelliJ installieren (jetbrains.com/idea)
+6. (Optional) IntelliJ installieren (http://jetbrains.com/idea)
 
 
 Um die Vorbereitungen zu treffen nun folgend eine Anleitung, die die nötigen Schritte erklärt, um die 5 zuvor genannten Aufgaben zu erledigen.
