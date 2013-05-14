@@ -21,15 +21,15 @@ Als IDE schlage ich IntelliJ vor. Wer es aber mit Eclipse versuchen will sollte 
 
 Um die Vorbereitungen zu treffen nun folgend eine Anleitung, die die nötigen Schritte erklärt, um die 5 zuvor genannten Aufgaben zu erledigen.
 
+
 ### 1. Scala
---------
 
 Nutzt die Downloads auf der offiziellen [Scala Download][scala-download] Webseite, um euch die passende Version für euer Betriebssystem herunterzuladen. Das Archiv solltet ihr am besten in euren Nutzerordner entpacken (bspw. ~/ oder /Users/ohaicat/).
 
 Dieser Schritt ist nur zur Absicherung, da die IDEs meist einen Ordner mit dem Compiler und den Libraries (wie bei Java) genannt bekommen wollen. Maven zieht die nötigen Libraries und den Compiler aber selbstständig. 
 
+
 ### 2. Play! Framework
------------------
 
 Für Play! muss ein Archiv heruntergeladen werden von der [Play! Framework Download][play-download] Seite. Wir einigen uns auf Version 2.1.1. Das heruntergeladene Archiv soll in den Nuterordner entpackt werden (bspw. ~/ oder /Users/nicolascage/). 
 
@@ -40,22 +40,23 @@ Der *Getting Started* Guide in der [Play! Documentation][play-docs] kann ebenfal
 
 Wir werden Play! hauptsächlich in Java implementieren und durch die Views langsam an Scala herantasten. Erst in Lift lassen wir uns ganz und gar auf Scala ein.
 
+
 ### 3. Maven
---------
 
 Bitte ladet euch die neueste Version von Maven herunter und installiert dieses. Die Downloads findet ihr auf der Maven-Webseite unter [Maven Download and Installation Guide][maven-install]. Weiter unten auf der Downloadsseite findet sich eine Anleitung zum Installieren von Maven für Windows- und Unix-Systeme. 
 
 Bitte stellt sicher, dass ihr `mvn --version` erfolgreich auf der Konsole ausführen könnt.
 
+
 ### 4. Musterprojekt Play
----------------------
 
 Im Hauptordner dieses Repos findet ihr ein Musterprojekt für das Play! Framework, dass wir als Grundlage nutzen werden. Dieses werden wir zunächst betrachten und dann einige Neuerungen implementieren.
 
+
 ### 5. Musterprojekt Lift
----------------------
 
 Im Hauptordner dieses Repos findet ihr ein Musterprojekt für das Lift Framework, dass wir als Grundlage nutzen werden. Dieses werden wir zunächst betrachten und dann mit der Scala Programmierung in Lift starten.
+
 
 ### 6. IntelliJ IDE
 
@@ -70,6 +71,7 @@ Sollte dies alles vorhanden sein, ist auch die IDE einsatzbereit. Wer möchte ka
 ## Ziel & Aufgabe
 
 Wir programmieren eine kleine Todo-Listen-Webanwendung.
+
 
 
 * * *
