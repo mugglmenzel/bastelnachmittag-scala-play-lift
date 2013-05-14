@@ -62,7 +62,7 @@ Im Hauptordner dieses Repos findet ihr ein Musterprojekt für das Lift Framework
 
 IntelliJ ist eine IDE, die als lizenzierte Software oder als kostenlose community edition angeboten wird. Letzteres lässt sich von [IntelliJ IDEA Download][idea-download] herunterladen und installieren.
 
-Wichtig ist es die passenden Plu-Ins vorab zu installieren. Wichtig ist vorallem das Scala Plugin. Dieses findet ihr im Plug-In Repository in der IDE ( *File* -> *Plug-Ins* ). Dieses sollte zumindest installiert sein. Hilfreich ist auch das Maven Plug-In, um Befehle direkt aus der IDE anstarten zu können.
+Wichtig ist es die passenden Plugins vorab zu installieren. Wichtig ist vorallem das Scala Plugin. Dieses findet ihr im Plugin Repository in der IDE ( *Preferences* -> *Plugins* ). Dieses sollte zumindest installiert sein. Hilfreich ist auch das Maven Plug-In, um Befehle direkt aus der IDE anstarten zu können.
 
 Sollte dies alles vorhanden sein, ist auch die IDE einsatzbereit. Wer möchte kann bereits versuchen die beiden Projekte in IntelliJ zu importieren. Das geht mit der Maven-Datei beim Lift Musterprojekt oder bei Play! lässt sich die vollständige Projektbeschreibung mit dem Befehl "idea" auf der Konsole erstellen.
 
