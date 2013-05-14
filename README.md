@@ -3,7 +3,7 @@ Bastelnachmittag mit Scala, Play!, Lift
 
 Dieser Bastelnachmittag steht im Zeichen zweier Web Frameworks, die auf der Programmiersprache Scala basieren. Vorkenntnisse sind keine besonderen nötig, als Absolvent eines Informatikstudiengangs sollte jeder Teilnehmer ausreichendes Vorwissen haben.
 
-Voraussetzung ist lediglich Java JDK+JRE ist installiert (java.com).
+Voraussetzung ist lediglich [Java JDK+JRE](//www.java.com) sind installiert und dieses Repo wurde mit [git](http://git-scm.com/downloads) geklont.
 
 Außerdem gibt es einige Vorbereitungen zu treffen, die unnötige Aufgaben aus dem Bastelnachmittag fern halten. 
 Als IDE schlage ich IntelliJ vor. Wer es aber mit Eclipse versuchen will sollte auch glücklich werden. Daher ist der letzte Schritt optional.
@@ -67,17 +67,12 @@ Sollte dies alles vorhanden sein, ist auch die IDE einsatzbereit. Wer möchte ka
 * * *
 
 ## Links ##
-[Scala Download][scala-download]
-
-[Play! Download][play-download]
-
-[Play! Installation Guide][play-install]
-
-[Play! Documentation][play-docs]
-
-[Maven Download and Installation Guide][maven-install]
-
-[IntelliJ IDEA Download][idea-download]
+* [Scala Download][scala-download]
+* [Play! Download][play-download]
+* [Play! Installation Guide][play-install]
+* [Play! Documentation][play-docs]
+* [Maven Download and Installation Guide][maven-install]
+* [IntelliJ IDEA Download][idea-download]
 
 
 
