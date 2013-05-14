@@ -1,0 +1,95 @@
+@(todos: List[Todo])
+
+@main("Welcome to TODO List 2.0") {
+
+<p>This gonna be legen ... (wait for it) ... dary!</p>
+
+        <h2>Map Function</h2>
+
+<table class="table table-striped table-hover table-my-todos">
+    <thead>
+    <tr>
+        <th></th>
+        <th>Things You Have To Do</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+@todos.map { todo =>
+<tr class="status-@todo.getStatus() todo-entry" data-id="@todo.getId()">
+    <td>
+        <input type="checkbox" class="input-status" @if(todo.getStatus()=="COMPLETE"){checked}/>
+    </td>
+    <td>@todo.getTitle()</td>
+    <td><a href="#" class="btn-delete"><i class="icon-trash"></i>Delete</a></td>
+</tr>
+}
+    </tbody>
+</table>
+
+<div class="input-append">
+    <input id="todotitle" type="text"/>
+    <button id="addtodo" class="btn btn-primary" type="button"><i class="icon-plus"></i> Add</button>
+</div>
+
+
+<script type="text/javascript">
+
+
+        $('#addtodo').on('click', function(){
+
+        var btn = $(this),
+            fld = $('#todotitle');
+
+        $.post('@routes.JsonController.addTodo()', {
+        title: fld.val()
+        }, function(res){
+        $('.table-my-todos tbody').append($('<tr class="status-'+res.status+' todo-entry" data-id="'+res.id+'"><td><input class="input-status" type="checkbox"/></td><td>'+res.title+'</td><td><a href="#" class="btn-delete"><i class="icon-trash"></i>Delete</a></td></tr>').fadeIn());
+        fld.val("");
+        });
+        });
+
+        $('table.table-my-todos').on('click', 'input.input-status', function(){
+
+        var input = $(this),
+        tr = input.parents('.todo-entry'),
+        id = tr.attr('data-id');
+
+        $.ajax({
+        url: '@routes.JsonController.updateTodo("")' + id,
+        data: {
+        status: input.is(':checked') ? "COMPLETE" : "NEW"
+        },
+        type: 'PUT',
+        success: function(res) {
+        tr.get(0).className = 'status-'+res.status+' todo-entry';
+        }
+        });
+        });
+
+
+        $('table.table-my-todos').on('click', 'a.btn-delete', function(e){
+        e.preventDefault();
+
+        var a = $(this),
+        tr = a.parents('.todo-entry'),
+        id = tr.attr('data-id');
+
+        $.ajax({
+        url: '@routes.JsonController.updateTodo("")' + id,
+        type: 'DELETE',
+        success: function(res) {
+        tr.fadeOut(function(){
+        tr.remove();
+        });
+        }
+        });
+
+        });
+
+
+
+</script>
+
+
+}

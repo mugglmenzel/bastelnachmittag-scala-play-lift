@@ -1,0 +1,18 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+
+GET     /json/                          controllers.JsonController.index()
+POST    /json/                          controllers.JsonController.addTodo()
+PUT     /json/:id                       controllers.JsonController.updateTodo(id:String)
+DELETE  /json/:id                       controllers.JsonController.deleteTodo(id:String)
+
+GET     /                               controllers.AppController.index()
+POST    /                               controllers.AppController.save()
+GET     /:id/update                     controllers.AppController.update(id:String)
+GET     /:id/delete                     controllers.AppController.delete(id:String)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file                   controllers.Assets.at(path="/public", file)
