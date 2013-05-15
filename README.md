@@ -72,7 +72,8 @@ Sollte dies alles vorhanden sein, ist auch die IDE einsatzbereit. Wer möchte ka
 
 ## Ziel & Aufgabe
 
-Wir programmieren eine kleine Todo-Listen-Webanwendung.
+Wir lernen die Implementierung einer kleinen Todo-Listen-Webanwendung in Play! und Lift kennen. 
+Dabei wird auf einige Aspekte eingegangen und wir versuchen uns an ein paar Änderungen.
 
 
 
