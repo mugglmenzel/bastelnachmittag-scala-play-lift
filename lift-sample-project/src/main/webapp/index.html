@@ -1,15 +1,46 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head><meta content="text/html; charset=UTF-8" http-equiv="content-type" /><title>Home</title></head>
-  <body class="lift:content_id=main">
-    <div id="main" class="lift:surround?with=default;at=content">
-      <h2>Welcome to your project!</h2>
-      <p>
-	<span class="lift:helloWorld.howdy">
-	  Welcome to your Lift app at <span id="time">Time goes here</span>
-	</span>
-      </p>
-    </div>
-  </body>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+    <title>Home</title></head>
+<body class="lift:content_id=main">
+<div id="main" class="lift:surround?with=default;at=content">
+    <h2>ToDo List</h2>
+
+    <table class="table table-striped table-hover table-my-todos">
+        <thead>
+        <tr>
+            <th>?</th>
+            <th>Things You Have To Do</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <lift:todos/>
+        </tbody>
+    </table>
+
+    <form action="/" method="POST" class="lift:edittodo">
+        <fieldset>
+            <input type="text" name="title"/>
+        </fieldset>
+        <div class="form-actions">
+            <button class="btn btn-primary" type="submit"><i class="icon-plus"></i> Add</button>
+        </div>
+    </form>
+
+
+    <h2>Lazy ToDo List</h2>
+
+
+    <lift:lazy-load>
+        <lift:lazytext/>
+    </lift:lazy-load>
+
+</div>
+</body>
 </html>
 
