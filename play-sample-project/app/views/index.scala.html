@@ -15,6 +15,7 @@
         <th>Things You Have To Do</th>
         <th></th>
         <th></th>
+        <th></th>
     </tr>
     </thead>
     <tbody>
@@ -26,6 +27,7 @@
         <td>@todo.getTitle()</td>
         <td><a href="@routes.AppController.update(todo.getId())">Update</a></td>
         <td><a href="@routes.AppController.delete(todo.getId())" class="btn-delete"><i class="icon-trash"></i>Delete</a></td>
+        <td><a href="#" onclick="$.get('@routes.AppController.delete(todo.getId())', '', function (data, textStatus, jqXHR){alert('deleted @todo.getTitle()')})" class="btn-delete"><i class="icon-trash"></i>Delete AJAX</a></td>
     </tr>
     }
     </tbody>
